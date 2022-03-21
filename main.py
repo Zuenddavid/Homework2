@@ -17,6 +17,7 @@ def save_locally():
 
 save_locally()
 punctuation = ",;!.?-()"
+
 def get_unique_words():
     """
     Get the dictionary of unique words and their frequency
@@ -54,8 +55,8 @@ unique_ratio = unique_word_1/word_count
 
 from urllib.request import urlopen
 
-url2="https://www.gutenberg.org/cache/epub/67627/pg67627.txt"
-local_name2 = "The_Treasure_Trail.txt"
+url2="https://www.gutenberg.org/files/98/98-0.txt"
+local_name2 = "A Tale of Two Cities"
 def save_locally2():
     """
     Save the book locally, so we can use it faster and no need to load every time
